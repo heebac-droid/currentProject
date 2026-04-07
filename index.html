@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title> Task App </title>
+	<link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+	<h1> Task App Introduction </h1>
+	<hr><br>
+	<label for="TaskName"> Name of Task: </label><br>
+	<input type="text" id="TaskNameText"><br><br>
+	<button id="TaskNameButton"> Enter: </button><br><br>
+	<label for="TaskPriority"> Task Priority: </label><br>
+	<input type="radio" name="Task Properties"> <!-- Tag for selecting priority 1 task -->
+	<label for="PriorityOne"> #1 </label>
+	<input type="radio" name="Task Properties"> <!-- Tag for selecting priority 2 task -->
+	<label for="PriorityOne"> #2 </label>
+	<input type="radio" name="Task Properties"> <!-- Tag for selecting priority 3 task -->
+	<label for="PriorityOne"> #3 </label>
+	<input type="radio" name="Task Properties"> <!-- Tag for selecting priority 4 task -->
+	<label for="PriorityOne"> #4 </label><br><br>
+	<label for="TaskDeadline"> Task Deadline: </label><br>
+	<input type="date" id="TaskDeadline"><br><br>
+	<label for="TaskDate"> Task Completion Date: </label><br>
+	<input type="date" id="TaskDate"> 
+	<br>
+	<br>
+	<br>
+	<input type="submit" id="TaskPropertiesButton" value="Enter!">
+	<h3 id="hiddenMess">Confirmation message!!! </h3>
+	<script src="index.js"></script>
+    </body>
+</html>

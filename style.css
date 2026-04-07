@@ -1,0 +1,11 @@
+#TaskPropertiesButton {
+    border: 0.6rem solid green;
+    color: black;
+}
+
+#hiddenMess {
+    position: fixed;
+    top: 10rem;
+    right: 4rem;
+    display: none;
+}
